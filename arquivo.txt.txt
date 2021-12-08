@@ -1,1 +1,15 @@
-um arquivo qualquer
+ ssh-keygen -t rsa -f "C:\Users\User\Desktop\DEVELOPER\PROJETOGITSIMULADO/.ssh/github" -C 'mrcx.dev@gmail.com'
+eval "$(ssh-agent -s)"
+Agent pid 1457
+$ ssh-add "C:\Users\User\Desktop\DEVELOPER\PROJETOGITSIMULADO\.ssh\github"
+
+#iniciando o git
+git init
+$ git config --global user.name "cxmdev"
+$ git config --global user.email "mrcx.dev@gmail.com"
+$ git remote add origin https://github.com/cxmdev/temp-repo.git
+$ git add .
+$ git commit -m 'initial'
+$ git push origin master
+$ git status
+

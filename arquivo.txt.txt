@@ -16,5 +16,6 @@ $ git status
 $ git commit -m 'alteracao de dados iniciais'
 $ git add .
 $ git push origin master -u //permite que posteriormente use somente git push
+$ git log --oneline
 
 
